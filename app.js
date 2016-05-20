@@ -1,6 +1,7 @@
 /**
  * Module dependencies.
  */
+require('dotenv').config();
 
 var express = require('express')
   , routes = require('./routes')
